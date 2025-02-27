@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar css start */
+
+.navbar {
+    font-weight: bolder;
+    color: rgb(1, 2, 66);
+    background-color: rgb(219, 234, 250);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#nav-container {
+    padding: 0px 80px;
+}
+
+.nav-item a {
+    color: rgb(1, 2, 66);
+    font-weight: bolder;
+}
+
+.nav-item a:hover {
+    color: rgb(73, 49, 244);
+}
+
+.navbar .btn {
+    border: 1px solid rgb(73, 49, 244);
+    color: rgb(73, 49, 244);
+    font-weight: bold;
+}
+
+/* navbar css end */
+
+/* home session css start */
+#home {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#home .session1 {
+    background-image: url("./images/building-bg.jpg");
+    width: 100%;
+    height: 740px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#home .session1 h3, #home .session1 p{
+    color: rgb(2, 2, 47);
+    color: white;
+    font-weight: bold;
+}
+
+#home .session1 .content-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+}
+
+#home .btn1,
+#home .btn2,
+#home .session4 .btn,
+#blogs-container .btn,
+#contact-container form .btn {
+    background-color: rgb(12, 8, 95);
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#home .btn:hover,
+#blogs-container .btn:hover,
+#contact-container form .btn:hover {
+    background-color: rgb(73, 49, 244);
+}
+
+#home .session2 {
+    width: 100%;
+    min-height: 500px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 242, 249);
+
+}
+
+#home .container-fluid {
+    padding: 0px 80px;
+    margin-top: 50px;
+}
+
+#home .session2 .content-container,
+#pageContiner .content-container {
+    height: 220px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#home .session3,
+.courses-container {
+    width: 100%;
+    min-height: 500px;
+}
+
+#home .session3 .card-container,
+.courses-container .card-container {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+#home .session4 {
+    background-image: url("./images/image7.jpg");
+    width: 100%;
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .session4 .form input {
+    border: 1px solid rgb(73, 49, 244);
+    background-color: transparent;
+}
+
+#home .session4 ::placeholder,
+#footer-container #footer-input::placeholder {
+    color: rgb(73, 49, 244);
+}
+
+#footer-container {
+    background-color: rgb(1, 2, 48);
+    width: 100%;
+    padding: 35px 80px;
+    color: rgb(219, 234, 250);
+    font-weight: bold;
+}
+
+#footer-container .btn {
+    background-color: rgb(73, 49, 244);
+    border-radius: 8px;
+    color: rgb(219, 234, 250);
+    padding: 10px;
+}
+
+#footer-container .btn:hover {
+    background-color: rgb(105, 87, 244);
+}
+
+#footer-container #footer-input {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#footer-container h5 {
+    font-weight: bold;
+}
+
+#footer-container p {
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+/* home session css end */
+
+/* about session css start */
+
+#pageContiner {
+    margin: 0;
+    padding: 0;
+}
+
+#pageContiner .bg-image-container {
+    background-image: url("./images/image8.jpeg");
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#pageContiner .img1-container {
+    width: 100%;
+}
+
+
+#pageContiner .img2-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+#pageContiner h4 {
+    color: rgb(1, 2, 66);
+}
+
+#pageContiner #images-session,
+#courses-container {
+    padding: 0px 80px;
+}
+
+/* about session css end */
+
+/* blogs session css start */
+#blogs-container {
+    padding: 0px 80px;
+    display: flex;
+}
+
+#blogs-container .categories h4,
+#blogs-container .categories h6 {
+    border-bottom: 2px solid rgb(158, 13, 235);
+    width: 350px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    color: rgb(1, 2, 66);
+}
+
+#blogs-container img,
+#blogs-container p {
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* blogs session css end */
+
+/* courses session css start */
+.courses-container {
+    padding: 0px 80px;
+}
+
+/* courses session css end */
+
+/* contact session css start */
+#contact-container {
+    padding: 0px 80px;
+}
+
+#contact-container .left-side {
+    width: 80%;
+    color: rgb(1, 2, 66);
+    padding: 30px 35px;
+}
+
+#contact-container form h5,
+#contact-container form p,
+#contact-container form input::placeholder,
+#contact-container form textarea::placeholder {
+    color: rgb(1, 2, 66);
+}
+
+/* contact session css end */
+
+
+/* media query start*/
+
+@media only screen and (max-width: 991px) {
+    #nav-container {
+        padding: 0px 50px;
+    }
+
+    .nav-item,
+    .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #home .container-fluid,
+    #pageContiner #images-session {
+        padding: 0px 50px;
+    }
+
+    #home .session2 .content-container {
+        height: 250px;
+        padding: 20px 30px;
+    }
+
+    #footer-container {
+        padding: 35px 50px;
+    }
+
+    #last-float {
+        float: none !important;
+        margin-top: 20px;
+    }
+
+    .boy-girl {
+        margin-bottom: 35px !important;
+    }
+
+
+    #blogs-container .categories h4,
+    #blogs-container .categories h6 {
+        width: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #float {
+        float: none !important;
+        margin-top: 20px;
+    }
+
+    #blogs-container img,
+    #blogs-container p {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+}
+
+
+
+
+/* media query end */
